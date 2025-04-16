@@ -24,11 +24,13 @@ func OpenTopic(ctx context.Context, topic string) (*pubsub.Topic, error) {
 	return nil, errors.New("invalid driver supplied")
 }
 
-func OpenSubscription(ctx context.Context, subscription string, topic string) (*pubsub.Subscription, func (), error) {
+func OpenSubscription(ctx context.Context, subscription string, topic string) (*pubsub.Subscription, func(), error) {
 	switch provideDriver() {
 	case "gcloud":
 		return NewGCloudSubscription(ctx, os.Getenv("GCP_PROJECT"), topic, subscription)
+	case "rabbit":
+		return NewRabbitSubscription(ctx, topic, subscription)
 	}
 
-	return nil, func () {}, nil
+	return nil, func() {}, nil
 }

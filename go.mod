@@ -3,6 +3,7 @@ module github.com/jobilla/go-app-events
 go 1.17
 
 require (
+	github.com/rabbitmq/amqp091-go v1.8.1
 	github.com/sirupsen/logrus v1.9.3
 	gocloud.dev v0.30.0
 	gocloud.dev/pubsub/rabbitpubsub v0.30.0
@@ -23,7 +24,6 @@ require (
 	github.com/google/wire v0.5.0 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.2.5 // indirect
 	github.com/googleapis/gax-go/v2 v2.12.0 // indirect
-	github.com/rabbitmq/amqp091-go v1.8.1 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	golang.org/x/crypto v0.11.0 // indirect
 	golang.org/x/net v0.12.0 // indirect
