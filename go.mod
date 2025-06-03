@@ -1,4 +1,4 @@
-module github.com/jobilla/go-app-events
+module github.com/taneryener/go-app-events
 
 go 1.17
 

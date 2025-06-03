@@ -2,6 +2,8 @@
 
 This is a golang library aiming to be compatible with [decahedronio/laravel-app-events](https://github.com/decahedronio/laravel-app-events).
 
+**Note**: This is a fork of the original [jobilla/go-app-events](https://github.com/jobilla/go-app-events) repository with additional improvements and updates.
+
 The library allows you to send and listen to events coming from another service, with handlers
 mapped to the various events.
 
@@ -12,7 +14,7 @@ the correct protobuf message type.
 
 ## Installation
 ```bash
-go get github.com/jobilla/go-app-events
+go get github.com/taneryener/go-app-events
 ```
 
 ## Usage

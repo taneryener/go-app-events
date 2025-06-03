@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	Test "github.com/jobilla/go-app-events/test"
+	Test "github.com/taneryener/go-app-events/test"
 	"gocloud.dev/pubsub"
 )
 

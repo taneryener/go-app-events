@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	pubsub2 "github.com/jobilla/go-app-events/internal/pkg/pubsub"
+	pubsub2 "github.com/taneryener/go-app-events/internal/pkg/pubsub"
 	log "github.com/sirupsen/logrus"
 	"gocloud.dev/pubsub"
 )

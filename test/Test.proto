@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package = "github.com/jobilla/go-app-events/Test";
+option go_package = "github.com/taneryener/go-app-events/Test";
 
 message Test {
     string value = 1;

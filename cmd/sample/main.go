@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"github.com/jobilla/go-app-events/pkg/appevents"
+	"github.com/taneryener/go-app-events/pkg/appevents"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/sync/errgroup"
 )

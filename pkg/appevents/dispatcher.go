@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"google.golang.org/protobuf/proto"
 
-	app_pubsub "github.com/jobilla/go-app-events/internal/pkg/pubsub"
+	app_pubsub "github.com/taneryener/go-app-events/internal/pkg/pubsub"
 	"gocloud.dev/pubsub"
 )
 
